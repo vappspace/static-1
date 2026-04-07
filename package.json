@@ -1,0 +1,8 @@
+{
+  "name": "static-simple",
+  "version": "1.0.0",
+  "description": "Simple static site for hosting tests",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html style.css app.js dist/"
+  }
+}
